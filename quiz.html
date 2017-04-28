@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Quiz </title>
+<link href ="quiz.css" rel = "stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "quiz.js"></script>
+</head>
+
+<body>
+
+<h1> PERFECT SENSE DIGITAL QUIZ</h1>
+<p id = "desc"> *Answer in lower case* </p>
+<br>
+
+<form id = "quiz" name = "quiz">
+
+<p> Where is Perfect Sense HQ?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p> The next Apple phone will be the Galaxy S8+?</p>
+<input id = "mc" type = "radio" name = "question2" value = "True"> True<br>
+<input id = "mc" type = "radio" name = "question2" value = "False"> False<br>
+
+<p> Which is the correct spelling?</p>
+<input id = "mc" type = "radio" name = "question3" value = "Dawg"> Dawg<br>
+<input id = "mc" type = "radio" name = "question3" value = "Dog"> Dog<br>
+<input id = "mc" type = "radio" name = "question3" value = "Dag"> Dag<br>
+<input id = "mc" type = "radio" name = "question3" value = "Daw-g"> Daw-g<br>
+
+<p> The sky is?</p>
+<input id = "mc" type = "radio" name = "question4" value = "Blue"> Blue<br>
+<input id = "mc" type = "radio" name = "question4" value = "Green"> Green<br>
+<input id = "mc" type = "radio" name = "question4" value = "Red"> Red<br>
+<input id = "mc" type = "radio" name = "question4" value = "Purple"> Purple<br>
+
+<p> Grass is?</p>
+<input id = "mc" type = "radio" name = "question5" value = "Blue"> Blue<br>
+<input id = "mc" type = "radio" name = "question5" value = "Green"> Green<br>
+<input id = "mc" type = "radio" name = "question5" value = "Red"> Red<br>
+<input id = "mc" type = "radio" name = "question5" value = "Purple"> Purple<br>
+
+<p> Dirt is?</p>
+<input id = "mc" type = "radio" name = "question6" value = "Blue"> Blue<br>
+<input id = "mc" type = "radio" name = "question6" value = "Brown"> Brown<br>
+<input id = "mc" type = "radio" name = "question6" value = "Red"> Red<br>
+<input id = "mc" type = "radio" name = "question6" value = "Purple"> Purple<br>
+
+
+
+<input id = "button" type = "button" value = "I'm Finished" onclick = "check();">
+
+</form>
+
+<div id = "after_submit">
+<p id = "message"></p>
+<p id = "number_correct"></p>
+</div>
+
+
+</body>
+
+</html>
